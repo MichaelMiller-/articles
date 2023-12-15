@@ -1,4 +1,4 @@
-# When performance matters...
+# If performance matters...
 
 ... it is best to use STL algorithms. C++ is usually used in performance-critical environments. But for the sake of simplicity, many developers use range-based loops. 
 
@@ -75,7 +75,7 @@ By the way, the STL version is faster than the range-based-for-loop by a factor 
 
 ## Conclusion
 
-If performance is a development requirement, make sure to take a look at the [algorithm](https://en.cppreference.com/w/cpp/algorithm) header. There are many specialized algorithms that not only increase the performance but also the readability of the code. 
+If performance is a development requirement, make sure to take a look at the [algorithm](https://en.cppreference.com/w/cpp/algorithm) header. There are many specialized algorithms that not only increase the performance but also the readability of the code. And as always measure, measure, measure. 
 
 #
 Copyright &copy; 2022 by Michael Miller 
